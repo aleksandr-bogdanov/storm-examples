@@ -12,6 +12,11 @@ public class WordCountTopology {
 
 	public static void main(String[] args) throws Exception {
 
+		if (args.length != 1) {
+			System.err.println("Usage: WordCountTopology <inputFile>");
+			System.exit(1);
+		}
+
 		// Config definition
 		Config conf = new Config();
 		conf.put("inputFile", args[0]);
