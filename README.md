@@ -3,10 +3,10 @@ storm-examples
 
 Testing some features of Apache Storm. 
 
-###Includes:
+####Includes:
 
 * WordCount - plain old word count
 
-###Usage:
+####Usage:
 
 storm jar <jarName> org.abogdanov.storm_examples.wordcount.WordCountTopology <inputFile>
