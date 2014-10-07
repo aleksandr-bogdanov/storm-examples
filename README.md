@@ -9,4 +9,4 @@ Testing some features of Apache Storm.
 
 ####Usage:
 
-storm jar <jarName> org.abogdanov.storm_examples.wordcount.WordCountTopology <inputFile>
+storm jar storm-examples.jar org.abogdanov.storm_examples.wordcount.WordCountTopology src/main/resources/words.txt
